@@ -11,7 +11,7 @@ class GameController extends Controller
 {
     public function gameScreen()
     {
-        $leaderboard = Score::orderBy('score', 'desc')->take('10')->get();
+        $leaderboard = Score::orderBy('score', 'desc')->limit(10)->get();
 
         return view('welcome', compact('leaderboard'));
     }
