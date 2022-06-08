@@ -1,0 +1,42 @@
+body {
+    background: #A4F8D8;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+#divInner{
+    left: 0;
+    position: sticky;
+}
+  
+#divOuter{
+    width: 190px; 
+    overflow: hidden;
+}
+
+#inputLarge {
+    padding-left: 15px;
+    letter-spacing: 42px;
+    border: 0;
+    background-image: linear-gradient(to left, black 70%, rgba(255, 255, 255, 0) 0%);
+    background-position: bottom;
+    background-size: 50px 2px;
+    background-repeat: repeat-x;
+    background-position-x: 35px;
+    width: 260px;
+    min-width: 260px;
+}
+
+.invalid-feedback {
+    font-size: 16px;
+}
+
+#timing {
+    display: none;
+}
+
+table {
+    font-size: 20px;
+}
